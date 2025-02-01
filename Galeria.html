@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GabiArt</title>
+    <meta name="description" content="Galería de arte creada con madera a la deriva, artista Gabriel Ramírez, firma como GabiArt sobre las piezas de madera únicas.">
+    <meta name="keywords" content="Arte, Madera, Deriva, Gabriel, Ramírez, GabiArt, Girona, Cataluña, Roses, Escultura, Galería, Costa Brava">
+    <meta name="author" content="Álex Ramírez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="diseño.css">
+
+    <link rel="icon" href="art.ico" type="image/x-icon">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="funciones.js" defer></script>
+    </head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Gabriel Ramírez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#home">Galería</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Idioma
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                    <li><a class="dropdown-item" href="Galeria_Cat.html">Català</a></li>
+                    <li><a class="dropdown-item" href="#home">Español</a></li>
+                    <li><a class="dropdown-item" href="Galeria_Eng.html">English</a></li>
+                </ul>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="py-5">
+        <div class="overlay"></div>  
+        <div class="container text-center text-light">
+            <h1 class="display-4 fw-bold text-center color2">Galería de Arte</h1>
+            <p class="lead text-center">Explora las obras de Arte de esta galería llamada: <span class="fst-italic">Alma en la Madera</span></p>
+        </div>
+    </section>
+
+    <section id="highlighted-works" class="py-5 bg-light">
+        <div class="container">
+        <h2 class="text-center mb-4 color3">Alma en la Madera</h2>
+        <div class="row">
+            <div class="col-lg-5 mb-3">
+            <div id="carouselExampleAutoplaying" class="carousel slide shadow " data-bs-ride="carousel" style="border-radius: 10px; overflow: hidden;">
+                <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="fotos/ca1.jpg" class="d-block w-100" alt="Artista Destacado 1">
+                </div>
+          
+                <div class="carousel-item ">
+                    <img src="fotos/ca6.jpg" class="d-block w-100" alt="Obra Destacada 1">
+                </div>
+                
+                <div class="carousel-item ">
+                    <img src="fotos/ca3.jpg" class="d-block w-100" alt="Artista Destacado 2">
+                </div>
+                
+                <div class="carousel-item ">
+                    <img src="fotos/ca5.jpg" class="d-block w-100" alt="Obra Destacada 2">
+                </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </div>
+
+            <div class="col-lg-7">
+            <div class="carousel-description">
+                <p class="lead">
+                Explora esta selección de las obras más representativas de <span class="fst-italic">"Alma en la Madera"</span>, arte con madera a la deriva, Gabi presenta esta exposición virtual hecha con pasión, talento y amor a la naturaleza.<br>
+                Estas piezas no solo embellecen el espacio, sino que también evocan una conexión profunda con el entorno del que provienen y una reflexión sobre su transformación.<br>
+                Son piezas singulares de madera buscadas y seleccionadas por el mismo artista en la Costa Brava, posteriormente trata y cuida la madera para sumarle su visión y crear obras artísticas originales e irremplazables.<br>
+                Las obras que se muestran aún no están finalizadas, Gabi está construyendo soportes y dándole los últimos cuidados a la madera, decide mostrarlas para compartir su arte todavía estando en proceso.<br>
+                Sumérgete en este viaje artístico donde la madera a la deriva se convierte en un puente entre la naturaleza y la expresión humana.
+            </p>
+            </div>
+            </div>
+        </div>
+        <div class="watermark"></div>
+        </div>
+    </section>
+
+    
+    <section id="arte-natural" class="py-5 ">
+        <div class="container">
+        <h2 class="section-title mb-4 color3">Arte Natural</h2>
+        <p class="text-center">Galería <span class="fst-italic">"Alma en la Madera"</span>, selección de obras creadas con madera a la deriva por Gabriel Ramírez.</p>
+        <p class="text-center">**Obras no finalizadas, se encuentran en la parte final del proceso creativo a la vez que se construyen sus soportes.<br>
+        </p>
+
+        <div class="mosaic">
+            <!-- Obra 1 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/abrazo.jpg" data-bs-title="Abrazo" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/abrazo.jpg" class="d-block w-100 small topc" alt="Abrazo">
+            <div class="mosaic-overlay">
+                <h5>Abrazo</h5>
+            </div>
+            </div>
+            <!-- Obra 2 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/pajaros.jpg" data-bs-title="Pájaros" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/pajaros.jpg" class="d-block w-100 small" alt="Pájaros">
+            <div class="mosaic-overlay">
+                <h5>Pájaros</h5>
+            </div>
+            </div>
+            <!-- Obra 3 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/elefante.jpg" data-bs-title="Elefante" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/elefante.jpg" class="d-block w-100 small" alt="Elefante">
+            <div class="mosaic-overlay">
+                <h5>Elefante</h5>
+            </div>
+            </div>
+            <!-- Obra 4 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/piedra.jpg" data-bs-title="Alegría" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/piedra.jpg" class="d-block w-100 small topc" alt="Alegría">
+            <div class="mosaic-overlay">
+                <h5>Alegría</h5>
+            </div>
+            </div>
+            
+
+
+            <!-- Obra 5 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/rojo.jpg" data-bs-title="Marrajo" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/rojo.jpg" class="d-block w-100 small leftc" alt="Marrajo">
+            <div class="mosaic-overlay">
+                <h5>Marrajo</h5>
+            </div>
+            </div>
+            <!-- Obra 6 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/tramontana.jpg" data-bs-title="Tramontana" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/tramontana.jpg" class="d-block w-100 small" alt="Tramontana">
+            <div class="mosaic-overlay">
+                <h5>Tramontana</h5>
+            </div>
+            </div>
+            <!-- Obra 7 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/cabra.jpg" data-bs-title="Montesa" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/cabra.jpg" class="d-block w-100 small" alt="Montesa">
+            <div class="mosaic-overlay">
+                <h5>Montesa</h5>
+            </div>
+            </div>
+            <!-- Obra 8 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/ciervo.JPG" data-bs-title="Venado" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/ciervo.JPG" class="d-block w-100 small" alt="Venado">
+            <div class="mosaic-overlay">
+                <h5>Venado</h5>
+            </div>
+            </div>
+
+            <!-- Obra 9 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/jirafa.jpg" data-bs-title="Jirafa" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/jirafa.jpg" class="d-block w-100 small" alt="Jirafa">
+            <div class="mosaic-overlay">
+                <h5>Jirafa</h5>
+            </div>
+            </div>
+            <!-- Obra 10 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/caballo.jpg" data-bs-title="Percherón" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/caballo.jpg" class="d-block w-100 small topc" alt="Percherón">
+            <div class="mosaic-overlay">
+                <h5>Percherón</h5>
+            </div>
+            </div>
+            <!-- Obra 11 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/cara.jpg" data-bs-title="Perfil" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/cara.jpg" class="d-block w-100 small" alt="Mujer">
+            <div class="mosaic-overlay">
+                <h5>Perfil</h5>
+            </div>
+            </div>
+         
+            <!-- Obra 12 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/gato.jpg" data-bs-title="Gato Negro" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/gato.jpg" class="d-block w-100 small" alt="Gato Negro">
+            <div class="mosaic-overlay">
+                <h5>Gato Negro</h5>
+            </div>
+            </div>
+
+            <!-- Obra 13 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/comadreja.jpg" data-bs-title="Comadreja" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/comadreja.jpg" class="d-block w-100 small" alt="Comadreja">
+            <div class="mosaic-overlay">
+                <h5>Comadreja</h5>
+            </div>
+            </div>
+            <!-- Obra 14 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/hoguera.jpg" data-bs-title="Hoguera" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/hoguera.jpg" class="d-block w-100 small" alt="Hoguera">
+            <div class="mosaic-overlay">
+                <h5>Hoguera</h5>
+            </div>
+            </div>
+            <!-- Obra 15 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/gondolero.jpg" data-bs-title="Deshollinador" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/gondolero.jpg" class="d-block w-100 small" alt="Deshollinador">
+            <div class="mosaic-overlay">
+                <h5>Deshollinador</h5>
+            </div>
+            </div>
+            <!-- Obra 16 -->
+            <div class="mosaic-item" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/pala.jpg" data-bs-title="Huerto" data-bs-description="*Las medidas de la obra se actualizarán cuando se construyan todos los soportes.">
+            <img src="fotos/pala.jpg" class="d-block w-100 small topc" alt="Huerto">
+            <div class="mosaic-overlay">
+                <h5>Huerto</h5>
+            </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+        <h2 class="text-center mb-4 color3">Explorando Estilos Artísticos Anteriores</h2>
+        <p class="text-center text-muted mb-4">
+            A lo largo de su trayectoria, el artista ha experimentado con diversos estilos artísticos, cada uno reflejando una etapa única de creatividad. Haz clic en la flecha para explorar obras representativas de cada etapa.
+        </p>
+
+        <div class="text-center mt-3">
+            <p class="text-muted mb-0" style="font-size: 0.9rem;">expandir</p>
+            <button id="toggleButton" class="btn btn-link text-dark ">
+            <i class="fas fa-chevron-down" style="font-size: 2rem; color:#212528BF;"></i>
+            </button>
+        </div>
+
+        <div id="expandableContent" class="collapse">
+            <ul class="nav nav-tabs justify-content-center mt-4" id="artStylesTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active text-dark" id="paper-tab" data-bs-toggle="tab" data-bs-target="#paper" type="button" role="tab" aria-controls="paper" aria-selected="true">
+                Obras en papel
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-dark" id="canvas-tab" data-bs-toggle="tab" data-bs-target="#canvas" type="button" role="tab" aria-controls="canvas" aria-selected="false">
+                Pinturas en lienzo
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-dark" id="alternative-tab" data-bs-toggle="tab" data-bs-target="#alternative" type="button" role="tab" aria-controls="alternative" aria-selected="false">
+                Métodos Alternativos
+                </button>
+            </li>
+            </ul>
+
+            <div class="tab-content mt-4" id="artStylesTabsContent">
+            <div class="tab-pane fade show active" id="paper" role="tabpanel" aria-labelledby="paper-tab">
+                <p class="text-center">Obras expresivas utilizando distintas técnicas y estilos sobre papel.</p>
+                <div class="row">
+                <div class="col-md-4">
+                    <img src="fotos/papel1.jpg" alt="Gentío" class="img-fluid gallery-image rounded shadow"  data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/papel1.jpg" data-bs-title="Gentío" data-bs-description="">
+                </div>
+                <div class="col-md-4">
+                    <img src="fotos/papel2.jpg" alt="Erizo de mar" class="img-fluid gallery-image rounded shadow"  data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/papel2.jpg" data-bs-title="Erizo de Mar" data-bs-description="">
+                </div>
+                <div class="col-md-4">
+                    <img src="fotos/papel3.jpg" alt="Pasos" class="img-fluid gallery-image rounded shadow"  data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/papel3.jpg" data-bs-title="¿Va o Viene?" data-bs-description="">
+                </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="canvas" role="tabpanel" aria-labelledby="canvas-tab">
+                <p class="text-center">Pinturas sobre lienzo que despiertan sensaciones o transportan a lugares.</p>
+                <div class="row">
+                <div class="col-md-4">
+                    <img src="fotos/lienzo1.jpg" alt="Velero" class="img-fluid gallery-image rounded shadow"  data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/lienzo1.jpg" data-bs-title="Velero" data-bs-description="">
+                </div>
+                <div class="col-md-4">
+                    <img src="fotos/lienzo2.jpg" alt="Costa Nublada" class="img-fluid gallery-image rounded shadow"  data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/lienzo2.jpg" data-bs-title="Costa Nublada" data-bs-description="">
+                </div>
+                <div class="col-md-4">
+                    <img src="fotos/lienzo3.jpg" alt="Pescadores" class="img-fluid gallery-image rounded shadow"  data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/lienzo3.jpg" data-bs-title="Pescadores" data-bs-description="">
+                </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="alternative" role="tabpanel" aria-labelledby="alternative-tab">
+                <p class="text-center">Técnicas innovadoras como el láser o jugar con diferentes materiales, dan vida a obras que desafían lo convencional.</p>
+                <div class="row">
+                <div class="col-md-4">
+                    <img src="fotos/otros1.jpg" alt="Exposición Arte Alternativo 1" class="img-fluid gallery-image rounded shadow" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/otros1.jpg" data-bs-title="Exposición Arte Alternativo" data-bs-description="">
+                </div>
+                <div class="col-md-4">
+                    <img src="fotos/otros2.jpg" alt="Exposición Arte Alternativo 2" class="img-fluid gallery-image rounded shadow" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/otros2.jpg" data-bs-title="Exposición Arte Alternativo" data-bs-description="">
+                </div>
+                <div class="col-md-4">
+                    <img src="fotos/otros3.jpg" alt="Exposición Arte Alternativo 3" class="img-fluid gallery-image rounded shadow" data-bs-toggle="modal" data-bs-target="#modalObra" data-bs-src="fotos/otros3.jpg" data-bs-title="Exposición Arte Alternativo" data-bs-description="">
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 offset">
+        <div class="container">
+            <h2 class="text-center mb-4 color3">Contacto</h2>
+            <p class="text-center mb-4">Para consultas, comentar o cualquier pregunta, no dudes en ponerte en contacto conmigo a través de mi correo, contestaré encantado:</p>
+            <div class="row justify-content-center">
+            <div class="col-md-6">
+                <p class="text-center"><strong>Correo Electrónico:</strong></p>
+                <div class="d-flex align-items-center justify-content-center">
+                <a href="mailto:artista@correo.com" class="me-2 text-decoration-none">
+                    <i class="fas fa-envelope fa-3x"></i>
+                </a>
+                <a href="mailto:artista@correo.com" class="h5 mb-0 text-decoration-none">artista@correo.com</a>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <div class="modal fade" id="modalObra" tabindex="-1" aria-labelledby="modalObraLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="modalObraLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+            <img src="" id="imagenModal" class="img-fluid img-modal rounded shadow" alt="">
+            <p id="descripcionObra" class="mt-2"></p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4 footer-marca">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6">
+                <h5 class="mb-3">Gracias por visitar mi galería</h5>
+                <p>
+                Espero que disfrutes explorando mis obras tanto como yo disfruté creándolas. Si tienes alguna pregunta o deseas comentarme cualquier cosa, no dudes en ponerte en contacto conmigo.
+                </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <h5 class="mb-3">Contacto</h5>
+                <p>
+                <i class="fas fa-envelope"></i> 
+                <a href="mailto:artista@correo.com" class="text-white text-decoration-none">artista@correo.com</a>
+                </p>
+                <p><strong>www.maderaderiva.com</strong></p>
+        
+            </div>
+            </div>
+            <hr class="border-light">
+            <div class="row">
+            <div class="col text-center">
+                <p class="mb-0">&copy; 2025 Gabriel Ramírez - Todos los derechos reservados.</p>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+  <meta charset="UTF-8">
+  <title>GabiArt</title>
+  <meta name="description" content="Galeria d'art creada amb fusta a la deriva, artista Gabriel Ramírez, signatura com *GabiArt sobre les peces de fusta úniques.">
+  <meta name="keywords" content="Art, Fusta, Deriva, Gabriel, Ramírez, GabiArt, Girona, Catalunya, Roses, Escultura, Galeria, Costa Brava">
+  <meta name="author" content="Álex Ramírez">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="diseño.css">
+
+  <link rel="icon" href="art.ico" type="image/x-icon">
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="funciones.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Gabriel Ramírez</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Inici</a></li>
+            <li class="nav-item"><a class="nav-link" href="Galeria_Cat.html">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contacte</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Idioma
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                <li><a class="dropdown-item" href="#home">Català</a></li>
+                <li><a class="dropdown-item" href="index.html">Español</a></li>
+                <li><a class="dropdown-item" href="Inicio_Eng.html">English</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+  <section id="home" class="py-5">
+      <div class="overlay"></div>  
+      <div class="container text-center text-light">
+          <h1 class="display-4 fw-bold text-center color2">Galeria d'Art, Fusta a la Deriva</h1>
+          <p class="lead text-center">Transformant la fusta en art i les emocions en forma. Descobreix un univers artístic únic on la naturalesa i la creativitat es troben.</p>
+          <a href="#gallery" class="btn btn-outline-light btn-lg mt-3">Conèixer més</a>
+      </div>
+  </section>
+
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center  mb-4 color3">Sobre l'Artista</h2>
+      <div class="row">
+        <div class="col-md-5 text-center mb-3">
+          <img src="fotos/foto2.jpg" class="img-fluid foto-artista shadow rounded" alt="Foto del Artista Abstracta">
+        </div>
+        <div class="col-md-7">
+          <p class="lead">
+            Gabi és un artista de la Costa Brava, que fusiona les seves dues grans passions; Mar i Art, transformant fusta a la deriva de la Costa del Mediterrani
+            en obres d'art úniques, que combinen la bellesa natural amb la seva visió i expressió artística. Cada peça reflecteix un profund respecte per la naturalesa i
+            un talent per a ressaltar les textures, formes i colors inherents al material<br>
+            Gabi recorre diàriament el litoral, realitzant diferents activitats que li permeten gaudir d'ell al màxim, això crea l'oportunitat de trobar
+            peces de fusta singulars que la mar regala a la costa. Gabi s'ha inspirat a crear aquesta galeria d'art anomenada <span class="fst-italic">"Ànima a la Fusta"</span>.
+          </p> 
+        </div>
+      </div>
+      <div class="watermark"></div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-5 offset">
+    <div class="container">
+        <h2 class="text-center  mb-4 color3" >Obres d'Art</h2>
+        <div class="row g-4"> 
+
+            <div class="col-12 mb-4">
+              <div class="card">
+                  <img src="fotos/pato.jpg" class="card-img-top" alt="Arte Natural"  style="object-fit: cover; max-height: 200px;">
+                  <div class="card-body   text-center">
+                      <h5 class="card-title">Art en Fusta</h5>
+                      <p class="card-text">Explora la bellesa orgànica en la seva màxima expressió. Cada peça d'art natural està creada utilitzant fusta a la deriva de la Costa Brava, transformant-la en una obra original i única.</p>
+                      <a href="Galeria_Cat.html" class="btn btn-dark">Veure Galeria</a>
+                  </div>
+              </div>
+            </div>
+
+            <h4 class="text-center  mb-4 color3" >- procés creatiu -</h4>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="d-flex align-items-center" style="height: 250px; overflow: hidden;">
+                        <img src="fotos/olas.jpg" class="card-img-top h-100" alt="Oleaje" style="object-fit: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Cerca i Selecció</h5>
+                        <p class="card-text">Recórrer la Costa Brava buscant aquestes peces de fusta singulars amb
+                          la capacitat de transformar-se en obres d'art, seleccionant-les acurada i respectuosament.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="d-flex align-items-center" style="height: 250px; overflow: hidden;">
+                        <img src="fotos/ca2.jpg" class="card-img-top h-100" alt="Artesano" style="object-fit: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Tractament i Cura</h5>
+                        <p class="card-text">Les peces de fusta requereixen un tractament i cura específica que Gabi, en el seu
+                          taller d'art, aplica amb esforç i tacte, tractant de preservar l'essència pura de la fusta.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="d-flex align-items-center" style="height: 250px; overflow: hidden;">
+                        <img src="fotos/ca6.jpg" class="card-img-top h-100" alt="Obra finalizada" style="object-fit: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Obres Finalitzades</h5>
+                        <p class="card-text">Amb talent i dedicació s'aconsegueix passar de la peça natural de fusta a una obra original i irrepetible.
+                          Sempre diferents en molts sentits, com en expressivitat, dimensió o contundència.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-light offset">
+      <div class="container">
+        <h2 class="text-center mb-4 color3">Contacte</h2>
+        <p class="text-center mb-4">Per a consultes, comentar o qualsevol pregunta, no dubtis a posar-te en contacte amb mi a través del meu correu, respondré encantat:</p>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <p class="text-center"><strong>Correu Electrònic:</strong></p>
+            <div class="d-flex align-items-center justify-content-center">
+              <a href="mailto:artista@correo.com" class="me-2 text-decoration-none">
+                <i class="fas fa-envelope fa-3x"></i> 
+              </a>
+              <a href="mailto:artista@correo.com" class="h5 mb-0 text-decoration-none">artista@correo.com</a>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <footer class="bg-dark text-white py-4 footer-marca">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="mb-3">Gràcies per visitar la meva galeria</h5>
+            <p>
+              Espero que gaudis explorant les meves obres tant com jo vaig gaudir creant-les. Si tens alguna pregunta o desitges comentar-me qualsevol cosa, no dubtis a posar-te en contacte amb mi.
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <h5 class="mb-3">Contacte</h5>
+            <p>
+              <i class="fas fa-envelope"></i> 
+              <a href="mailto:artista@correo.com" class="text-white text-decoration-none">artista@correo.com</a>
+            </p>
+            <p><strong>www.maderaderiva.com</strong></p>
+    
+          </div>
+        </div>
+        <hr class="border-light">
+        <div class="row">
+          <div class="col text-center">
+            <p class="mb-0">&copy; 2025 Gabriel Ramírez - Tots els drets reservats.</p>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  
+</body>
+</html>

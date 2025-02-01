@@ -1,0 +1,199 @@
+/* 1 */
+#home {
+    position: relative;
+    background-image: url('fotos/g.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    color: white;
+    padding: 100px 0;
+}
+#home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; 
+}
+#home .container {
+    position: relative;
+    z-index: 2; 
+}
+.container-marca, .footer-marca {
+    background-image: url('fotos/barra.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    }
+.footer-marca  {
+    background-size: auto 50%;
+}
+
+.watermark {
+    float: right;
+    z-index: 10; 
+    pointer-events: none; 
+    transform: rotate(-30deg);
+
+    background-image: url('fotos/nuevafirma3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px; 
+    height: 50px; 
+}
+
+.foto-artista{
+    max-width: 445px;
+    border-radius: 19px;
+    width: 100%;
+    height: auto;
+    }
+.color2{
+    color: #c4cca9!important;
+}
+.color3{
+    color: #89936e!important;
+}
+#contact a {
+    color: #000;
+}
+#contact a:hover {
+    color: #0056b3;
+}
+    .offset {
+    scroll-margin-top: 40px;
+}
+
+/* 2 */
+
+.carousel-inner {
+    max-height: 400px;
+    
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+.carousel-description h5 {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+}
+.carousel-description p {
+    font-size: 1.25rem;
+}
+
+
+.mosaic {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.mosaic-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer; 
+  background: #f0f0f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  max-height: 350px;
+}
+.mosaic-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+.mosaic-item:hover img {
+  transform: scale(1.1);
+}
+.mosaic-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.mosaic-item .mosaic-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 8px;
+}
+.mosaic-item:hover .mosaic-overlay {
+    opacity: 1; 
+}
+.mosaic-item .mosaic-overlay h5 {
+    font-size: 1.5rem;
+}
+.section-title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2rem;
+}
+.topc{object-position: top;}
+.leftc{object-position: left;}
+.separator {
+  grid-column: 1 / -1;
+  height: 1px;
+  background-color: #ccc; 
+  margin: 20px 0; 
+}
+
+
+
+.img-modal {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 80vh;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.nav-tabs .nav-link {
+  font-weight: bold;
+  color: #333!important; 
+  /* border: none; */
+}
+.nav-tabs .nav-link.active {
+  color: #000; 
+  border-bottom: 2px solid #000; 
+}
+.tab-content img {
+  margin-bottom: 15px; 
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  object-position: center;
+}
+#toggleButton {
+  border: none;
+  background: none;
+  outline: none;
+}
+#toggleButton:hover i {
+  color: gray; 
+}
+.text-muted {
+  font-weight: 500; 
+}
+.gallery-image {
+  cursor: pointer; 
+  transition: transform 0.3s ease;
+}
+.gallery-image:hover {
+  transform: scale(1.05);
+}
