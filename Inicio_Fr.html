@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>GabiArt</title>
+  <meta name="description" content="Galerie d’art créée avec du bois flotté, l’artiste Gabriel Ramirez, signe comme gabiart sur les pièces en bois uniques.">
+  <meta name="keywords" content="Art, Bois, Dérive, Gabriel, Ramírez, Gabiart, Gérone, Catalogne, Roses, Sculpture, Galerie, Costa Brava">
+  <meta name="author" content="Álex Ramírez">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="diseño.css">
+
+  <link rel="icon" href="art.ico" type="image/x-icon">
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="funciones.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Gabriel Ramírez</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="Galeria_Fr.html">Galerie</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Langue
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                <li><a class="dropdown-item" href="Inicio_Cat.html">Català</a></li>
+                <li><a class="dropdown-item" href="/">Español</a></li>
+                <li><a class="dropdown-item" href="Inicio_Eng.html">English</a></li>
+                <li><a class="dropdown-item" href="#home">Français</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+  <section id="home" class="py-5">
+      <div class="overlay"></div>  
+      <div class="container text-center text-light">
+          <h1 class="display-4 fw-bold text-center color2">Galerie d'art, bois flotté</h1>
+          <p class="lead text-center">Transformer le bois en art et les émotions en forme. Découvrez un univers artistique unique où nature et créativité se rencontrent.</p>
+          <a href="#gallery" class="btn btn-outline-light btn-lg mt-3">Savoir Plus</a>
+      </div>
+  </section>
+
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center  mb-4 color3">À propos de l'Artiste</h2>
+      <div class="row">
+        <div class="col-md-5 text-center mb-3">
+          <img src="fotos/foto2.jpg" class="img-fluid foto-artista shadow rounded" alt="Foto del Artista Abstracta">
+        </div>
+        <div class="col-md-7">
+          <p class="lead">
+            Gabriel Ramírez est un artiste de la Costa Brava, qui fusionne ses deux grandes passions ; Mer et Art, transformant le bois flotté de la côte méditerranéenne 
+            en oeuvres d’art uniques, combinant la beauté naturelle avec leur vision et leur expression artistique. Signée gabiart, chaque pièce reflète un profond respect 
+            de la nature et un talent pour mettre en valeur les textures, les formes et les couleurs inhérentes à la matière.<br>
+            Gabi parcourt le littoral tous les jours, faisant différentes activités qui lui permettent d’en profiter au maximum. Cela crée l’occasion de trouver des 
+            pièces de bois uniques que la mer donne à la côte, et dont il s’est inspiré pour créer cette galerie d’art appelée <span class="fst-italic">"Âme dans le bois"</span>.
+          </p> 
+        </div>
+      </div>
+      <div class="watermark"></div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-5 offset">
+    <div class="container">
+        <h2 class="text-center  mb-4 color3" >Oeuvres d'art</h2>
+        <div class="row g-4"> 
+
+            <div class="col-12 mb-4">
+              <div class="card">
+                  <img src="fotos/pato.jpg" class="card-img-top" alt="Arte Natural"  style="object-fit: cover; max-height: 200px;">
+                  <div class="card-body   text-center">
+                      <h5 class="card-title">Art du bois</h5>
+                      <p class="card-text">Explorez la beauté biologique dans toute sa splendeur. Chaque oeuvre d’art naturel est créée à partir de bois flotté de la Costa Brava, la transformant en une oeuvre originale et unique sous la signature gabiart.</p>
+                      <a href="Galeria.html" class="btn btn-dark">Voir la Galerie</a>
+                  </div>
+              </div>
+            </div>
+
+            <h4 class="text-center  mb-4 color3" >- processus créatif -</h4>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="d-flex align-items-center" style="height: 250px; overflow: hidden;">
+                        <img src="fotos/olas.jpg" class="card-img-top h-100" alt="Oleaje" style="object-fit: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Recherche et Sélection</h5>
+                        <p class="card-text">Explorez la Costa Brava à la recherche de ces pièces de bois uniques avec
+                            la capacité de se transformer en œuvres d’art, en les sélectionnant avec soin et respect.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="d-flex align-items-center" style="height: 250px; overflow: hidden;">
+                        <img src="fotos/ca2.jpg" class="card-img-top h-100" alt="Artesano" style="object-fit: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Traitement et Soins</h5>
+                        <p class="card-text">Les pièces en bois nécessitent un traitement et des soins spécifiques que Gabi, en elle
+                            atelier d'art, s'applique avec effort et tact, en essayant de préserver la pure essence du bois.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="d-flex align-items-center" style="height: 250px; overflow: hidden;">
+                        <img src="fotos/ca6.jpg" class="card-img-top h-100" alt="Obra finalizada" style="object-fit: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Oeuvres d'Art Fini</h5>
+                        <p class="card-text">Avec talent et dévouement, il est possible de passer d'un morceau de bois naturel à une œuvre originale et irremplaçable. 
+                            Toujours différent à bien des égards, comme l'expressivité, la dimension ou la force.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-light offset">
+      <div class="container">
+        <h2 class="text-center mb-4 color3">Contact</h2>
+        <p class="text-center mb-4">Pour toute demande, commentaire ou toute question, n'hésitez pas à me contacter via mon email, je me ferai un plaisir de répondre:</p>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <p class="text-center"><strong>E-mail:</strong></p>
+            <div class="d-flex align-items-center justify-content-center">
+              <a href="mailto:gabrirr1964@gmail.com" class="me-2 text-decoration-none">
+                <i class="fas fa-envelope fa-3x"></i> 
+              </a>
+              <a href="mailto:gabrirr1964@gmail.com" class="h5 mb-0 text-decoration-none">gabrirr1964@gmail.com</a>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <footer class="bg-dark text-white py-4 footer-marca">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="mb-3">Merci d'avoir visité ma galerie GabiArt</h5>
+            <p>
+                J'espère que vous prendrez autant de plaisir à explorer mes œuvres que j'ai aimé les créer. Si vous avez des questions ou souhaitez me dire quelque chose, n'hésitez pas à me contacter.
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <h5 class="mb-3">Contact</h5>
+            <p>
+              <i class="fas fa-envelope"></i> 
+              <a href="mailto:gabrirr1964@gmail.com" class="text-white text-decoration-none">gabrirr1964@gmail.com</a>
+            </p>
+            <p><strong>www.gabiart.es</strong></p>
+    
+          </div>
+        </div>
+        <hr class="border-light">
+        <div class="row">
+          <div class="col text-center">
+            <p class="mb-0">&copy; 2025 Gabriel Ramírez - Tous droits réservés.</p>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  
+</body>
+</html>
