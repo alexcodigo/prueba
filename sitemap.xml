@@ -2,50 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
 <loc>https://gabiart.es/</loc>
-<lastmod>2025-02-07T18:48:08+00:00</lastmod>
+<lastmod>2025-02-08T16:46:32+00:00</lastmod>
 <priority>1.00</priority>
 <xhtml:link rel="alternate" hreflang="cat" href="https://gabiart.es/Inicio_Cat.html"/>
 <xhtml:link rel="alternate" hreflang="en" href="https://gabiart.es/Inicio_Eng.html"/>
 <xhtml:link rel="alternate" hreflang="es" href="https://gabiart.es/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://gabiart.es/Inicio_Fr.html"/>
 </url>
 <url>
 <loc>https://gabiart.es/Inicio_Cat.html</loc>
-<lastmod>2025-02-07T18:48:08+00:00</lastmod>
+<lastmod>2025-02-08T16:46:32+00:00</lastmod>
 <priority>1.00</priority>
 <xhtml:link rel="alternate" hreflang="cat" href="https://gabiart.es/Inicio_Cat.html"/>
 <xhtml:link rel="alternate" hreflang="en" href="https://gabiart.es/Inicio_Eng.html"/>
 <xhtml:link rel="alternate" hreflang="es" href="https://gabiart.es/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://gabiart.es/Inicio_Fr.html"/>
 </url>
 <url>
 <loc>https://gabiart.es/Inicio_Eng.html</loc>
-<lastmod>2025-02-07T18:48:08+00:00</lastmod>
+<lastmod>2025-02-08T16:46:32+00:00</lastmod>
 <priority>1.00</priority>
 <xhtml:link rel="alternate" hreflang="cat" href="https://gabiart.es/Inicio_Cat.html"/>
 <xhtml:link rel="alternate" hreflang="en" href="https://gabiart.es/Inicio_Eng.html"/>
 <xhtml:link rel="alternate" hreflang="es" href="https://gabiart.es/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://gabiart.es/Inicio_Fr.html"/>
+</url>
+<url>
+<loc>https://gabiart.es/Inicio_Fr.html</loc>
+<lastmod>2025-02-08T16:46:32+00:00</lastmod>
+<priority>1.00</priority>
+<xhtml:link rel="alternate" hreflang="cat" href="https://gabiart.es/Inicio_Cat.html"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://gabiart.es/Inicio_Eng.html"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://gabiart.es/"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://gabiart.es/Inicio_Fr.html"/>
 </url>
 <url>
 <loc>https://gabiart.es/Galeria.html</loc>
-<lastmod>2025-02-07T18:48:08+00:00</lastmod>
+<lastmod>2025-02-08T16:46:32+00:00</lastmod>
 <priority>0.80</priority>
 <xhtml:link rel="alternate" hreflang="cat" href="https://gabiart.es/Galeria_Cat.html"/>
 <xhtml:link rel="alternate" hreflang="en" href="https://gabiart.es/Galeria_Eng.html"/>
 <xhtml:link rel="alternate" hreflang="es" href="https://gabiart.es/Galeria.html"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://gabiart.es/Galeria_Fr.html"/>
 </url>
 <url>
 <loc>https://gabiart.es/Galeria_Cat.html</loc>
-<lastmod>2025-02-07T18:48:08+00:00</lastmod>
+<lastmod>2025-02-08T16:46:32+00:00</lastmod>
 <priority>0.80</priority>
 <xhtml:link rel="alternate" hreflang="cat" href="https://gabiart.es/Galeria_Cat.html"/>
 <xhtml:link rel="alternate" hreflang="en" href="https://gabiart.es/Galeria_Eng.html"/>
 <xhtml:link rel="alternate" hreflang="es" href="https://gabiart.es/Galeria.html"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://gabiart.es/Galeria_Fr.html"/>
 </url>
 <url>
 <loc>https://gabiart.es/Galeria_Eng.html</loc>
-<lastmod>2025-02-07T18:48:08+00:00</lastmod>
+<lastmod>2025-02-08T16:46:32+00:00</lastmod>
 <priority>0.80</priority>
 <xhtml:link rel="alternate" hreflang="cat" href="https://gabiart.es/Galeria_Cat.html"/>
 <xhtml:link rel="alternate" hreflang="en" href="https://gabiart.es/Galeria_Eng.html"/>
 <xhtml:link rel="alternate" hreflang="es" href="https://gabiart.es/Galeria.html"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://gabiart.es/Galeria_Fr.html"/>
+</url>
+<url>
+<loc>https://gabiart.es/Galeria_Fr.html</loc>
+<lastmod>2025-02-08T16:46:32+00:00</lastmod>
+<priority>0.80</priority>
+<xhtml:link rel="alternate" hreflang="cat" href="https://gabiart.es/Galeria_Cat.html"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://gabiart.es/Galeria_Eng.html"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://gabiart.es/Galeria.html"/>
+<xhtml:link rel="alternate" hreflang="fr" href="https://gabiart.es/Galeria_Fr.html"/>
 </url>
 </urlset>
