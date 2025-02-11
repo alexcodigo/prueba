@@ -29,3 +29,16 @@ modalObra.addEventListener('show.bs.modal', function (event) {
     modalDescription.textContent = description;
 });
 });
+
+function toggleContent(button) {
+    let content = button.closest('.expandable-section').querySelector('.hidden-content');
+    let icon = button.querySelector('.expand-icon');
+
+    if (content.style.display === "none" || content.style.display === "") {
+        content.style.display = "block";
+        icon.textContent = "－"; // Cambia a signo de resta
+    } else {
+        content.style.display = "none";
+        icon.textContent = "＋"; // Vuelve al signo de suma
+    }
+}
