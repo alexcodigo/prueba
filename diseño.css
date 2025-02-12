@@ -226,8 +226,9 @@
 }
 .expand-icon{
   background: #eee;
-  border-radius: 50px;
-  padding: 0px 8px 2px 8px
+  border-radius: 50px; 
+  font-weight: normal;
+  padding: 0px 8px 1px 8px
 }
 /* .expand-btn:hover {
   transform: scale(1.1);
